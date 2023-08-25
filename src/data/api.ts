@@ -109,7 +109,7 @@ export const updateTransactions = async ({
               calculateCategoryAmount(targetCategoryDetails);
 
               // Log the updated data
-              console.log(data);
+              console.log({ success: true });
 
               return;
             }
