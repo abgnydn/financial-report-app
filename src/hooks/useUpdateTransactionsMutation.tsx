@@ -14,6 +14,5 @@ export const useUpdateTransactionsMutation = () => {
     console.error(error);
   }
 
-  // Return the fetched data
   return mutate;
 };
