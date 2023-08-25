@@ -1,5 +1,5 @@
 import { ChangeEvent, DragEvent, useState } from "react";
-import { SearchIcon } from "../../icons";
+import { SearchIcon, PlusIcon } from "../../icons";
 import { useContext } from "react";
 import { SelectionContext } from "../../context/SelectionContext";
 import { useGetBreakdownDetailsQuery } from "../../hooks/useGetBreakdownDetailsQuery";
@@ -46,7 +46,7 @@ const RightSideBar: React.FC<RightSideBarProps> = () => {
       className={`absolute top-0 right-0 w-[20vw]  h-screen z-40 
       ${
         isOpen
-          ? "w-1/3 translate-x-0 bg-white border-4"
+          ? "w-1/3 translate-x-0 bg-white border-4 "
           : "translate-x-100 bg-transparent border-none"
       }
       `}
@@ -85,7 +85,9 @@ const RightSideBar: React.FC<RightSideBarProps> = () => {
             </div>
             <div className="flex flex-row justify-between text-white">
               <div className="text-sm bg-blue-500 px-3 py-1">Tags</div>
-              <div className="text-sm">+</div>
+              <div className="text-sm">
+                <PlusIcon />
+              </div>
             </div>
           </div>
           <div className="bg-white flex flex-col">
