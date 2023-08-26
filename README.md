@@ -175,7 +175,7 @@ Users can now drag and drop transactions to different rows for re-categorization
   "date": string,
   "category": string,
   "subcategory": string,
-  "id": 'string',
+  "id": string,
   "targetCategory": string,
   "targetSubcategory": string,
 }
@@ -293,4 +293,4 @@ The feature to drag and drop transactions between different rows has been implem
 Thank you for considering my submission for the Front End Take Home project. I've thoroughly enjoyed working on this project and implementing the requested features. If you have any questions, feedback, or suggestions, please don't hesitate to reach out. I look forward to discussing the project further with you!
 
 Best regards,
-[Your Name]
+Ahmet Barış Günaydın
