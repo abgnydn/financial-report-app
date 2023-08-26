@@ -24,7 +24,7 @@ To get started with the project, follow these steps:
 2. **Navigate to the Project Directory:** Move into the project directory:
 
    ```bash
-   cd balance-financial-report-ui
+   cd financial-report-app
    ```
 
 3. **Install Dependencies:** Install project dependencies using [pnpm](https://pnpm.io/):
